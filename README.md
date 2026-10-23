@@ -4,7 +4,7 @@
   <a href="https://github.com/BrunoMonreal/BrunoMonreal/blob/main/README.en.md"><img src="assets/lang-en-off.svg" height="40" alt="English" /></a>
 </p>
 
-<img src="assets/hero-es.svg" width="100%" alt="Bruno Monreal, AI Engineer en Infini, Barcelona. Histograma de mis commits por hora del día." />
+<img src="assets/hero-es.svg" width="100%" alt="Bruno Monreal, Partner en Infini y AI &amp; Data Manager en Forvis Mazars, Barcelona. Histograma de mis commits por hora del día." />
 
 <img src="assets/marquee.svg" width="100%" alt="Tecnologías: Python, LangGraph, FastAPI, vLLM, RAG, PostgreSQL, Docker…" />
 
