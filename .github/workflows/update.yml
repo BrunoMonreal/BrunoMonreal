@@ -1,0 +1,42 @@
+name: Actualizar perfil
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # cada día a las 05:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/update.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r scripts/requirements.txt
+
+      # STATS_TOKEN: token con lectura de los repos de la organización (ver README del script).
+      # Sin él, se reutiliza data/stats.json y solo se repintan los SVGs.
+      - run: python scripts/build.py
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets data README*.md
+          git diff --cached --quiet || git commit -m "chore: actualizar estadísticas del perfil"
+          git push
