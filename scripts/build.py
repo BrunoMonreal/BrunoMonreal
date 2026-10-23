@@ -47,7 +47,7 @@ CUT = 28  # chaflán
 TXT = {
     "es": dict(
         name="Español",
-        lead="Partner en Infini · AI & Data Manager en Forvis Mazars.",
+        lead="AI & Data Manager en Forvis Mazars, Barcelona.",
         sub="Construyo agentes y pipelines de IA que leen documentos, razonan y llegan a producción.",
         hist="Mis commits por hora del día, últimos {n} días",
         about_title="Enseño a los LLMs a hacer trabajo de verdad.",
@@ -75,7 +75,7 @@ TXT = {
         stack_title="Con lo que trabajo",
         groups={"models": "Modelos", "orch": "Orquestación", "data": "Datos", "ship": "Producción"},
         footer="Hecho con Python, demasiado café y una GitHub Action.",
-        alt_hero="Bruno Monreal, Partner en Infini y AI & Data Manager en Forvis Mazars, Barcelona. Histograma de mis commits por hora del día.",
+        alt_hero="Bruno Monreal, AI & Data Manager en Forvis Mazars, Barcelona. Histograma de mis commits por hora del día.",
         alt_marquee="Tecnologías: Python, LangGraph, FastAPI, vLLM, RAG, PostgreSQL, Docker…",
         alt_about="Sobre mí y datos curiosos",
         alt_stats="Estadísticas anónimas de mis commits de los últimos 90 días",
@@ -84,7 +84,7 @@ TXT = {
     ),
     "ca": dict(
         name="Català",
-        lead="Partner a Infini · AI & Data Manager a Forvis Mazars.",
+        lead="AI & Data Manager a Forvis Mazars, Barcelona.",
         sub="Construeixo agents i pipelines d'IA que llegeixen documents, raonen i arriben a producció.",
         hist="Els meus commits per hora del dia, últims {n} dies",
         about_title="Ensenyo als LLMs a fer feina de veritat.",
@@ -112,7 +112,7 @@ TXT = {
         stack_title="Amb què treballo",
         groups={"models": "Models", "orch": "Orquestració", "data": "Dades", "ship": "Producció"},
         footer="Fet amb Python, massa cafè i una GitHub Action.",
-        alt_hero="Bruno Monreal, Partner a Infini i AI & Data Manager a Forvis Mazars, Barcelona. Histograma dels meus commits per hora del dia.",
+        alt_hero="Bruno Monreal, AI & Data Manager a Forvis Mazars, Barcelona. Histograma dels meus commits per hora del dia.",
         alt_marquee="Tecnologies: Python, LangGraph, FastAPI, vLLM, RAG, PostgreSQL, Docker…",
         alt_about="Sobre mi i curiositats",
         alt_stats="Estadístiques anònimes dels meus commits dels últims 90 dies",
@@ -121,7 +121,7 @@ TXT = {
     ),
     "en": dict(
         name="English",
-        lead="Partner at Infini · AI & Data Manager at Forvis Mazars.",
+        lead="AI & Data Manager at Forvis Mazars, Barcelona.",
         sub="I build AI agents and pipelines that read documents, reason, and make it to production.",
         hist="My commits by hour of day, last {n} days",
         about_title="I teach LLMs to do real work.",
@@ -149,7 +149,7 @@ TXT = {
         stack_title="What I work with",
         groups={"models": "Models", "orch": "Orchestration", "data": "Data", "ship": "Shipping"},
         footer="Made with Python, too much coffee and a GitHub Action.",
-        alt_hero="Bruno Monreal, Partner at Infini and AI & Data Manager at Forvis Mazars, Barcelona. Histogram of my commits by hour of day.",
+        alt_hero="Bruno Monreal, AI & Data Manager at Forvis Mazars, Barcelona. Histogram of my commits by hour of day.",
         alt_marquee="Tech: Python, LangGraph, FastAPI, vLLM, RAG, PostgreSQL, Docker…",
         alt_about="About me and fun facts",
         alt_stats="Anonymous stats about my commits over the last 90 days",
